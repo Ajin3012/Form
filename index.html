@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Application Form</legend>
+			<table>
+			<tr>
+			<td width="50%"><label for="name">Full name:</label></td>
+			<td><input type="text" id="fname" value="Aryan"><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="mail">Email:</label></td>
+			<td><input type="email" id="email" value="aryan@domain.com"><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="gender">Gender:</label></td>
+			<td><input type="radio" id="gender" value="Male" checked>Male</input>
+			<input type="radio" id="gender" value="Female">Female</input><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="nation">Nationality:</label></td>
+			<td><input type="select" id="nation" value="Indian"><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="skill">Skills:</label></td>
+			<td><input type="checkbox" id="asp" value="name" checked>ASP.net</input>
+			<input type="checkbox" id="jquery" value="name" checked>JQuery</input><br><br>
+			<input type="checkbox" id="mvc" value="name">MVC</input>
+			<input type="checkbox" id="sql" value="name" checked>SQL Query</input><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="Post">Post Applying For:</label></td>
+			<td><input type="radio" id="trainee" value="name">Trainee</input>
+			<input type="radio" id="soft" value="name" checked>Software Engineer</input><br><br>
+			<input type="radio" id="team" value="name">Team Leader</input>
+			<input type="radio" id="project" value="name">Project Manager</input><br><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="file">Upload Resume:</label></td>
+			<td><input type="file" id="file"><br></td>
+			</tr>
+			<tr>
+			<td width="50%"><label for="resume">Paste Your Resume:</label></td>
+			<td><textarea type="text" id="resu" placeholder="Sample resume text..." rows="3" cols="20"></textarea><br><br></td>
+			</tr>
+			</table>
+			<input type="checkbox" checked>Notify me the status via Email</input><br><br>
+			
+			<input type="radio" checked>I agree to terms and condition</input><br><br>
+			
+			<input type="submit">
+			<input type="Reset">
+		</fieldset>
+	</form>
+</body>
+</html>
